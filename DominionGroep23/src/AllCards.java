@@ -36,6 +36,8 @@ public class AllCards extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
+	
+	
 	// victory cards
 	public class curse{
 		int price = 0;
