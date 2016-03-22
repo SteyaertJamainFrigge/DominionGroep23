@@ -37,7 +37,11 @@ public class KiesKaarten extends HttpServlet {
 		response.setContentType("text/html");
 		response.setCharacterEncoding("utf-8");
 		PrintWriter out = response.getWriter();
-		out.println("<br><html><body>Hello World.</body></html>");
+		out.println("<html>"
+					+ "<body>"
+				+""
+					+ "</body>"
+				+ "</html>");
 		System.out.println("ik heb gewerkt...");
 	}
 
