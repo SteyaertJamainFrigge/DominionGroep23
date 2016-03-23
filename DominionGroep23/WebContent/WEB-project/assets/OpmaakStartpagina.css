@@ -7,13 +7,20 @@ body{
 }
 h1{
 	color: #000000;
-	font-family: "Bell Mt", Times, serif;
+	text-align: center; 
 	font-size: 55px;
 	margin: auto; 
 	width: 400px; 
 	margin-top: 50px;
 }
-a{
+h2{
+	font-size: 45px; 
+	margin: auto;
+	width: 800px; 
+	margin-top: 70px; 
+	text-align: center; 
+}
+a, p{
 	padding: 25px;
 	margin: 10px; 
 	color: #000000;
@@ -26,15 +33,23 @@ a{
 	font-size: 25px; 
 	width: 200px; 
 	text-align: center; 
-	
-	
-	
-	
+	font-weight: bold; 
+}
+label{
+	font-face: "Arial", Arial, serif;
+	font-size: 25px;
+	border-image: url(../assets/BordersKeuze.png);
+    border-image-slice: 52;
+    border-image-repeat: repeat; 
+    margin-right: 25px; 
+}
+a:hover{
+	background-image: url("../assets/HoverImages1.png"); 
+	background-size: 100%;
+	color: #FFFFFF;
 }
 div{
 	margin: auto;
 	margin-top: 20px;  
-	 
 	width: 600px; 
-	 
 }
