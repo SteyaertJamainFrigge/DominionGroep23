@@ -30,7 +30,24 @@ footer{
     float: left;
     margin-top: 10px;
 }
-#trash{
+#sidefooter{
 position: fixed;
     right: 0px
+}
+aside{
+    width:90px;
+    float: left;
+}
+aside .card{
+    width: 80px;
+    height: auto;
+}
+#discard img{
+    width:90px;
+    float: left;
+}
+#discard{
+    position:fixed;
+    left:0px;
+    bottom:0px;
 }
