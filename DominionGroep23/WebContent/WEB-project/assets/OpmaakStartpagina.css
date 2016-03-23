@@ -1,6 +1,6 @@
 @CHARSET "ISO-8859-1";
 body{
-	background-image: url(../assets/Medieval2.jpg);
+	background-image: url(../assets/images/Medieval2.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	font-family: "Bell Mt", Times, serif;
@@ -26,7 +26,7 @@ a, p{
 	color: #000000;
 	text-decoration: none;
 	border: 5px solid #006155;
-	border-image: url(../assets/border.png);
+	border-image: url(../assets/images/border.png);
     border-image-slice: 30;
     border-image-repeat: repeat; 
 	display: inline-block;
@@ -38,13 +38,13 @@ a, p{
 label{
 	font-face: "Arial", Arial, serif;
 	font-size: 25px;
-	border-image: url(../assets/BordersKeuze.png);
+	border-image: url(../assets/images/BordersKeuze.png);
     border-image-slice: 52;
     border-image-repeat: repeat; 
     margin-right: 25px; 
 }
 a:hover{
-	background-image: url("../assets/HoverImages1.png"); 
+	background-image: url("../assets/images/HoverImages1.png"); 
 	background-size: 100%;
 	color: #FFFFFF;
 }
