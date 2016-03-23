@@ -1,9 +1,11 @@
    $(function() {
-    $('.card').hover( function() {
-        $url = this.src;
-        alert($url);
+       $(".card")
+           .mouseover(function() {
+               $url = this.src;
 
-        document.getElementsById('#bigcard'.setAttribute("src", url));
-            $('#bigcard').src('images/adventurer.jpg')
-    });
-});
+               $('body').children('img').attr('src', $url);
+           })
+           .mouseout(function() {
+               $('body').children('img').attr('src', 'images/back.jpg');
+           });
+   });
