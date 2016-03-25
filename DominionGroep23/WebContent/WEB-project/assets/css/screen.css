@@ -1,6 +1,8 @@
 body{
     background-image: url(../../images/unnamed.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #000000;
 
     height: 100%;
 } #bigcard{
@@ -10,11 +12,14 @@ body{
     height: 53%;
 }
 footer{
-
     position: fixed;
-    left:25%;
     bottom: 0px;
-
+    width:100%;
+    }
+#deck{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #buyaction{
     width: 800px;
